@@ -1,0 +1,83 @@
+.media{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 5px;
+    margin: 5px 0 ;
+    background-color: black;
+    border-radius: 10px;
+    position: relative;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.media:hover{
+    background-color: white;
+    color: black;
+}
+
+@media(max-width : 550px){
+    .media{
+       width: 46%;
+    }
+  .nav-text{
+    width:100%;
+    text-align: center;
+  }
+ 
+}
+@media(min-width : 700px){
+    .nav-text{
+        width: 790px;
+        text-align: center;
+    }
+}
+.poster{
+    border-radius: 10px;
+    width: 100%
+}
+.title{
+    width: 100%;
+    font-size: 17px;
+    padding: 8px 0;
+    text-align: center;
+}
+.subTitle{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3px;
+    padding: 0 2px;
+}
+.trending{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+@media(max-width:700px){
+    .pagination {
+    margin-left: 50px;
+}
+
+}
+
+.form{
+    display: flex;
+    width: 100%;
+}
+    .input{
+        background-color: #f0f9ff;
+        color: #0C4A6E;
+    }
+.form-genres{
+    margin-left: 400px;
+}
+.pagination{
+    margin-left: 400px;
+}
+.button{
+    background-color: black;
+    margin-bottom: auto;
+    max-width: min-content;
+    align-items: center;
+    margin-left: 60px;
+    margin-top: auto;
+}
